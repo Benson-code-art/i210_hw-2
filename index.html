@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Personal Portfolio Website</title>
+</head>
+<body>
+    <header>
+<div class="title">Diamond Ink Art</div>
+<nav> 
+    <a href="#aboutme">About</a>
+    <a href="#project">Project</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+    </header> 
+   <div id="aboutme">
+    <h2> About Me</h2>
+<p id="nameandjob">Chase Benson | Illustrator, Character Designer, Graphic Designer </p>
+<p> Based in Indianapolis, I work as a freelance artist proficient in both traditional and digital art in areas of concept art and graphic design. With several projects in the works, I often attend as both buyer and vendor at networking events. </p>
+<img src="./images/linkVP.jpg" alt="profile picture">
+   </div>
+
+   <div id="project">
+    <h2>Project</h2>
+    <div id="projectimgs">
+    <div class="proj1"><img src="https://media.istockphoto.com/id/583809524/photo/alberta-wilderness-near-banff.jpg?s=612x612&w=0&k=20&c=hiI3ib9ibDxAgqEZEH09EO3JOw94v5xh6hzcuXGhO-M=" alt="A photo of a foggy mountain behind a forest" title="Mountain Haze"></div>
+    <div class="proj2"><img src="https://www.loveyourlandscape.org/media/83414/r-youngblood-co.jpg" alt="A photo of a garden with gate" title="Garden Sanctuary"></div>
+   <div class="proj3"><img src="https://www.printique.com/wp-content/uploads/2016/10/photography-landscape-adoramapix.jpg?width=650" alt="A mountain landscape with purple pink flowers" title="Violet fields"></div>
+   </div>
+</div>
+   <div id="skills"> 
+    <h2>Skills</h2>
+    <ul id="skillList"> 
+        <li>Concept Art</li>
+        <li>Design Graphics</li>
+        <li>Digital Storytelling</li>
+        <li>Web Development</li>
+        <li>Social Media Management</li>
+    </ul>
+   </div>
+
+   <div id="contact">
+    <h2>Contact</h2>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Write yourmessage here" ></textarea>
+        <br><br>
+        <input id="submit" type="submit" value="Submit">
+        <br><br>
+
+    </form>
+   </div>
+</body>
+</html>
